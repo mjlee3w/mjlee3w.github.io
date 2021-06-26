@@ -1,10 +1,23 @@
 /* Page structure */
 @import url("https://use.typekit.net/ffi6trt.css");
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+[hidden] {
+  display: none !important;
+}
+
+.divider {
+  padding: 0 1rem;
+}
 
 .wrapper {
+  min-height: 30vh;
   display: grid;
   place-items: center;
-  margin: 0 1rem;
+  margin: 0;
 }
 .content {
   display: flex;
@@ -14,16 +27,27 @@
 }
 
 
+
 body  {
     background-color: #feefe8;
-    
+    font-family: 'PT Mono', monospace;
 }
 
+
+
 .title {
-    font-size: 25px;
+    font-size: 35px;
     font-family: cooper-black-std, serif;
     font-style: normal;
     margin: 0;
+    text-align: center;
+}
+
+.credit { 
+  position:fixed;
+  bottom:5px;
+  right:50px;  
+  text-decoration: underline;
 }
 
 /* font colors */
