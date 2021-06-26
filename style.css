@@ -74,3 +74,16 @@ body  {
 .red {
     color: #f18a23;
 }
+
+@media only screen and (max-width: 600px) {
+  .title {
+     font-size: 35px;
+  }
+  
+  .title, .credit, p {
+    text-align: center;
+    
+  }
+
+  
+}
