@@ -1,6 +1,7 @@
 /* Page structure */
+@import url("https://use.typekit.net/ffi6trt.css");
+
 .wrapper {
-  min-height: var(--wrapper-height);
   display: grid;
   place-items: center;
   margin: 0 1rem;
@@ -12,6 +13,40 @@
   justify-content: center;
 }
 
+
 body  {
     background-color: #feefe8;
+    
+}
+
+.title {
+    font-size: 25px;
+    font-family: cooper-black-std, serif;
+    font-style: normal;
+    margin: 0;
+}
+
+/* font colors */
+.orange {
+    color: #fab41e;
+}
+
+.yellow {
+    color: #f4d086;
+}
+
+.green {
+    color: #a6c790;
+}
+
+.pink {
+    color: #facbaf;
+}
+
+.blue {
+    color: #88b29c;
+}
+
+.red {
+    color: #f18a23;
 }
