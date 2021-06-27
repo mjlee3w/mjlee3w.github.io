@@ -143,10 +143,10 @@ a:visited {
 
     .box-row-1 {
         padding-right:0px; 
-        float:center;
+        float:none;
     }
     .box-row-2 {
-        float:center;
+        float:none;
     }
   
 }
