@@ -51,6 +51,14 @@ body  {
   padding: 20px;
 }
 
+.box-row-1 {
+    padding-right:30px; 
+    float:left;
+}
+.box-row-2 {
+    float:left;
+}
+
 /*peach*/
 div.a {
 width: 70px;
@@ -133,5 +141,12 @@ a:visited {
         display:none;
     }
 
+    .box-row-1 {
+        padding-right:0px; 
+        float:center;
+    }
+    .box-row-2 {
+        float:center;
+    }
   
 }
