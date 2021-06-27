@@ -51,6 +51,13 @@ body  {
   padding: 20px;
 }
 
+div.a {
+width: 70px;
+height: 70px;
+position:fixed;
+    
+}
+
 .credit { 
   position:fixed;
   bottom:5px;
