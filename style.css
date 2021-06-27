@@ -51,11 +51,40 @@ body  {
   padding: 20px;
 }
 
+/*peach*/
 div.a {
 width: 70px;
 height: 70px;
 position:fixed;
     
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: #f18a23;
+}
+
+.orange-hover:hover {
+    color: #fab41e;
+}
+
+.yellow-hover:hover {
+    color: #f4d086;
+}
+
+.green-hover:hover {
+    color: #a6c790;
+}
+
+.pink-hover:hover {
+    color: #facbaf;
+}
+
+.blue-hover:hover {
+    color: #88b29c;
 }
 
 .credit { 
