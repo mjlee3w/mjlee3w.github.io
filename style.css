@@ -88,7 +88,7 @@ position:fixed;
     
 }
 
-.orange-hover:link, .yellow-hover:link, .green-hover:link, .pink-hover:link, .blue-hover:link {
+a:link {
     color: black;
 }
 
