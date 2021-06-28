@@ -56,6 +56,7 @@ body  {
     float:left;
 }
 .box-row-2 {
+    padding-right: 10px;
     float:left;
 }
 
@@ -72,7 +73,7 @@ a:link {
 }
 
 a:visited {
-    color: #f18a23;
+    color: black;
 }
 
 .orange-hover:hover {
@@ -127,6 +128,10 @@ a:visited {
     color: #f18a23;
 }
 
+.break-mobile {
+    display: none;
+}
+
 @media only screen and (max-width: 600px) {
   .title {
      font-size: 25px;
@@ -140,12 +145,17 @@ a:visited {
    .break {
         display:none;
     }
+    
+    .break-mobile {
+        display: block;
+    }
 
     .box-row-1 {
         padding-right:0px; 
         float:none;
     }
     .box-row-2 {
+        padding-right: 0px;
         float:none;
     }
   
