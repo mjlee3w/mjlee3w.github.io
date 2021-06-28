@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>♡ min jung lee ♡</title>
-        <meta name="description" content="">
+        <meta name="description" content="personal web">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="">
         <link rel="stylesheet" href="/style.css">
@@ -40,23 +40,60 @@
                 <br><br><br><br><br class = "break"><br class = "break">
                 <h1 class = "title">project inventory</h1>
                 <br>
-                <div class="box">
+                <div class="box" id = "main" style="display:block;">
                     <div class = "box-row-1">
-                        <img src = "assets/12th-can.png" width = 35> <a href = "https://twelth-can-audit.herokuapp.com" class = "orange-hover">12th Can Project</a> <br><br>
-                        <img src = "assets/baemax.png" width = 25> <a href = "https://github.com/ethancura/baemax" class = "yellow-hover">SEC ENGR UltiMedicus</a> <br><br>
-                        <img src = "assets/pet-the-loaf.PNG" width = 30> <a href = "https://pet-the-loaf.glitch.me" class = "green-hover">Pet the Loaf</a> <br class = "break-mobile"><br class = "break-mobile">
+                        <img src = "assets/12th-can.png" width = 35> <a href = "javascript:twelthBlock();" class = "orange-hover">12th Can Project</a> <br><br>
+                        <img src = "assets/baemax.png" width = 25> <a href = "javascript:baeBlock();" class = "yellow-hover">SEC ENGR UltiMedicus</a> <br><br>
+                        <img src = "assets/pet-the-loaf.PNG" width = 30> <a href = "javascript:petBlock();" class = "green-hover">Pet the Loaf</a> <br class = "break-mobile"><br class = "break-mobile">
                     </div>
                     <div class = "box-row-2">
-                        <img src = "assets/pockychu.png" width = 30> <a href = "https://github.com/mjlee3w/pockychu" class = "pink-hover">Pockychu</a> <br><br>
-                        <img src = "assets/egg-dog.png" width = 30> <a href = "https://dlalswjdd.itch.io/egg-dog" class = "blue-hover">Egg Dog Game</a> <br><br>
-                        <img src = "assets/for-the-tum.png" width = 30> <a href = "https://for-the-tum.glitch.me" class = "orange-hover">For the Tum</a>
+                        <img src = "assets/pockychu.png" width = 30> <a href = "javascript:pockyBlock();" class = "pink-hover">Pockychu</a> <br><br>
+                        <img src = "assets/egg-dog.png" width = 30> <a href = "javascript:eggBlock();" class = "blue-hover">Egg Dog Game</a> <br><br>
+                        <img src = "assets/for-the-tum.png" width = 30> <a href = "javascript:tumBlock();" class = "orange-hover">For the Tum</a>
                     </div>
                 </div>
+                
+                </div>
+                <div class = "box" id = "12th-can" style="display:none;">
+                    <img src = "assets/12th-can.png" width = 35> <a href = "https://twelth-can-audit.herokuapp.com" class = "orange-hover">12th Can Project</a> <br>
+                    <p class="tools">tools: ruby on rails, bootstrap, heroku</p>
+                    <p>My team in my software engineering class was tasked to design and create a volunteer tracker web application for the student organization 12th Can.</p>
+                    <a href = "javascript:twelthBlock();" class = "orange-hover">← return to list</a>
+                </div>
+                <div class = "box" id = "baemax" style="display:none;">
+                    <img src = "assets/baemax.png" width = 25> <a href = "https://github.com/ethancura/baemax" class = "yellow-hover">SEC ENGR UltiMedicus</a>
+                    <p class="tools">tools: python, keras, qt</p>
+                    <p>Summer internship provided by Texas A and M Student Engineering Council. I was the lead software developer and front end designer for the AI medical emergency room application.</p>
+                    <a href = "javascript:baeBlock();" class = "yellow-hover">← return to list</a>
+                </div>
+                <div class = "box" id = "pet-the-loaf" style="display:none;">
+                    <img src = "assets/pet-the-loaf.PNG" width = 30> <a href = "https://pet-the-loaf.glitch.me" class = "green-hover">Pet the Loaf</a>
+                    <p class="tools">tools: html/css, javascript, procreate</p>
+                    <p>Inspired by onemillionpats.com by Tofu-chan and Cookie Clicker, this is a simple web game of petting my favorite animal: cat.</p>
+                    <a href = "javascript:petBlock();" class = "green-hover">← return to list</a>
+                </div>
+                <div class = "box" id = "pockychu" style="display:none;">
+                    <img src = "assets/pockychu.png" width = 30> <a href = "https://github.com/mjlee3w/pockychu" class = "pink-hover">Pockychu</a>
+                    <p class="tools">tools: python, discord api, giphy api</p>
+                    <p>A discord bot I made for my student organization that gives motivational quotes and gifs to students who need it</p>
+                    <a href = "javascript:pockyBlock();" class = "pink-hover">← return to list</a>
+                </div>
+                <div class = "box" id = "egg-dog" style="display:none;">
+                    <img src = "assets/egg-dog.png" width = 30> <a href = "https://dlalswjdd.itch.io/egg-dog" class = "blue-hover">Egg Dog Game</a>
+                    <p class="tools">tools: python, pygame, procreate</p>
+                    <p>A cute and calm desktop dog game, that's there if you want to wind down and take a break from work</p>
+                    <a href = "javascript:eggBlock();" class = "blue-hover">← return to list</a>
+                </div>
+                <div class = "box" id = "for-the-tum" style="display:none;">
+                    <img src = "assets/for-the-tum.png" width = 30> <a href = "https://for-the-tum.glitch.me" class = "orange-hover">For the Tum</a>
+                    <p class="tools">html/css, javascript</p>
+                    <p>A collection of my favorited foods on the internet. Inspired by Nostagia Glitch and a SuperHi tutorial</p>
+                    <a href = "javascript:tumBlock();" class = "orange-hover">← return to list</a>
+                </div>
+                
                 <br><br>
                 
                 <p class = "credit">made with love ♡ 2021</p>
             </div>
-        </div>
-              
     </body>
 </html>

@@ -41,3 +41,89 @@ function calcSpeed(prev, next) {
     return speed;
 
 }
+
+
+function testBlock() {
+  var x = document.getElementById("test");
+  var y = document.getElementById("main");
+  if (x.style.display == "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+  } else {
+    y.style.display = "block";
+    x.style.display = "none";
+  }
+}
+
+function twelthBlock() {
+  var x = document.getElementById("12th-can");
+  var y = document.getElementById("main");
+  if (x.style.display == "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+  } else {
+    y.style.display = "block";
+    x.style.display = "none";
+  }
+}
+
+
+function baeBlock() {
+  var x = document.getElementById("baemax");
+  var y = document.getElementById("main");
+  if (x.style.display == "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+  } else {
+    y.style.display = "block";
+    x.style.display = "none";
+  }
+}
+
+function petBlock() {
+  var x = document.getElementById("pet-the-loaf");
+  var y = document.getElementById("main");
+  if (x.style.display == "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+  } else {
+    y.style.display = "block";
+    x.style.display = "none";
+  }
+}
+
+function pockyBlock() {
+  var x = document.getElementById("pockychu");
+  var y = document.getElementById("main");
+  if (x.style.display == "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+  } else {
+    y.style.display = "block";
+    x.style.display = "none";
+  }
+}
+
+function eggBlock() {
+  var x = document.getElementById("egg-dog");
+  var y = document.getElementById("main");
+  if (x.style.display == "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+  } else {
+    y.style.display = "block";
+    x.style.display = "none";
+  }
+}
+
+function tumBlock() {
+  var x = document.getElementById("for-the-tum");
+  var y = document.getElementById("main");
+  if (x.style.display == "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+  } else {
+    y.style.display = "block";
+    x.style.display = "none";
+  }
+}
