@@ -60,6 +60,26 @@ body  {
     float:left;
 }
 
+.navbar {
+    padding: 30px;
+}
+
+.about {
+    float: right;
+}
+
+.home {
+    float:left;
+}
+
+.about-link, .home-link {
+    text-decoration: none;
+}
+
+.about-link:hover, .home-link:hover {
+    text-decoration: line-through;
+}
+
 /*peach*/
 div.a {
 width: 70px;
@@ -68,7 +88,7 @@ position:fixed;
     
 }
 
-a:link {
+.orange-hover:link, .yellow-hover:link, .green-hover:link, .pink-hover:link, .blue-hover:link {
     color: black;
 }
 
