@@ -80,6 +80,18 @@ function baeBlock() {
   }
 }
 
+function typeBlock() {
+  var x = document.getElementById("type-gram");
+  var y = document.getElementById("main");
+  if (x.style.display == "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+  } else {
+    y.style.display = "block";
+    x.style.display = "none";
+  }
+}
+
 function petBlock() {
   var x = document.getElementById("pet-the-loaf");
   var y = document.getElementById("main");
