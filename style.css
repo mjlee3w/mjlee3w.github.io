@@ -200,5 +200,9 @@ a:visited {
         padding-top: 50px;
         
     }
+    
+    .me {
+        width: 64px;
+    }
   
 }
