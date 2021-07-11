@@ -193,6 +193,10 @@ a:visited {
         width: auto;
     }
     
+    .block {
+        padding: 10px;
+    }
+    
     .credit {
         position: relative;
         bottom: 2%;
