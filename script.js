@@ -80,6 +80,18 @@ function baeBlock() {
   }
 }
 
+function mechBlock() {
+  var x = document.getElementById("mech");
+  var y = document.getElementById("main");
+  if (x.style.display == "none") {
+    x.style.display = "block";
+    y.style.display = "none";
+  } else {
+    y.style.display = "block";
+    x.style.display = "none";
+  }
+}
+
 function typeBlock() {
   var x = document.getElementById("type-gram");
   var y = document.getElementById("main");
